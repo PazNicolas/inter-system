@@ -1,0 +1,52 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+
+/* Create a Parallax Effect */
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* First image (Logo. Full height) */
+
+.bgimg-1 {
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/07/origen-nombres-informatica-nunca-hubieras-imaginado_2.jpg');
+    min-height: 65%;
+}
+
+
+/* Second image (Portfolio) */
+
+.bgimg-2 {
+    background-image: url("https://posgrado.fceia.unr.edu.ar/images/fotos/carreras/doctorados/Doctorado-en-Informatica-2.jpg");
+    min-height: 400px;
+}
+
+
+/* Third image (Contact) */
+
+.bgimg-3 {
+    background-image: url("/w3images/parallax3.jpg");
+    min-height: 400px;
+}
