@@ -2,6 +2,11 @@
 <!DOCTYPE html>
 <html>
 <title>Inter-System</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -86,12 +91,32 @@
         <h3 class="w3-center">Sobre Nosotros</h3>
         <p style="color:#000000" ;>Somos un equipo encargado de solucionar problemas informáticos, brindamos soporte para actualización de equipos, PC, Notebook, etc. También ofrecemos asesoramiento e instalación de redes de internet, así como también establecemos diferentes equipos
             en conexión de red-lan para grupos de trabajos o videojuegos.</p>
+        <hr style="border:15px;">
 
-
-        <!-- Hide this text on small devices -->
-        <div class="w3-col m6 w3-hide-small w3-padding-large">
-        </div>
-        <p style="color:#000000" ;> <br> - Formateo<br> - Particion de discos<br> - Instalacion de windows o linux <br> - Instalacion de software y drivers <br>- Juegos <br> - Redes <br>- Mantenimiento Preventivo y Correctivo<br> - Instalacion de componentes de Hardware.</p>
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-floppy-o fa-stack-1x"></i>
+              </span> - Formateo y partición de discos<br>
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-floppy-o fa-stack-1x"></i>
+              </span> - Instalacion de windows o linux<br>
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-floppy-o fa-stack-1x"></i>
+              </span> - Instalacion de software y drivers<br>
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-floppy-o fa-stack-1x"></i>
+              </span> - Redes<br>
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-floppy-o fa-stack-1x"></i>
+              </span> - Mantenimiento Preventivo y Correctivo<br>
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-floppy-o fa-stack-1x"></i>
+              </span> - Instalacion de componentes de Hardware<br>
 
 
         <!-- Second Parallax Image with Portfolio Text -->
@@ -100,7 +125,7 @@
                 <span class="w3-xxlarge w3-text-white w3-wide"></span>
             </div>
         </div>
-
+        <hr style="border:15px;">
         <!-- Container (Portfolio Section) -->
         <div class="w3-content w3-container w3-padding-64" id="portfolio">
             <h3 class="w3-center">Algunos de nuestros trabajos</h3>
@@ -109,40 +134,39 @@
             <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
             <div class="w3-row-padding w3-center">
                 <div class="w3-col m3">
-                    <img src="https://i.postimg.cc/bYMRk9qz/Whats-App-Image-2022-02-05-at-19-50-00.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+                    <img src="https://i.postimg.cc/bYMRk9qz/Whats-App-Image-2022-02-05-at-19-50-00.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Analisis cpu y diagnostico">
                 </div>
 
                 <div class="w3-col m3">
-                    <img src="https://i.postimg.cc/ydxFSk5g/Whats-App-Image-2022-02-05-at-19-50-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+                    <img src="https://i.postimg.cc/ydxFSk5g/Whats-App-Image-2022-02-05-at-19-50-01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Limpieza de Componentes">
                 </div>
 
                 <div class="w3-col m3">
-                    <img src="https://i.postimg.cc/5NCS3Qt8/Whats-App-Image-2022-02-05-at-19-50-01-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+                    <img src="https://i.postimg.cc/5NCS3Qt8/Whats-App-Image-2022-02-05-at-19-50-01-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Control de temperatura">
                 </div>
 
                 <div class="w3-col m3">
-                    <img src="https://i.postimg.cc/zf0CBndY/Whats-App-Image-2022-02-05-at-19-50-01-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+                    <img src="https://i.postimg.cc/zf0CBndY/Whats-App-Image-2022-02-05-at-19-50-01-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Limpieza">
                 </div>
             </div>
 
             <div class="w3-row-padding w3-center w3-section">
                 <div class="w3-col m3">
-                    <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+                    <img src="https://i.postimg.cc/43Jvs8Q1/Whats-App-Image-2022-02-05-at-19-50-01-2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Antes">
                 </div>
 
                 <div class="w3-col m3">
-                    <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+                    <img src="https://i.postimg.cc/dVcmSQ7p/Whats-App-Image-2022-02-05-at-19-50-02-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Despues">
                 </div>
 
                 <div class="w3-col m3">
-                    <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+                    <img src="https://www.muycomputer.com/wp-content/uploads/2018/12/montar-un-procesador-4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ejemplo 7">
                 </div>
 
                 <div class="w3-col m3">
-                    <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+                    <img src="https://filestore.community.support.microsoft.com/api/images/8b7a2907-d9d2-4cfc-ab3e-f9a877dcb1ed?upload=true" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ejemplo 8">
 
                 </div>
-
                 <!-- Modal for full size images on click-->
                 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
                     <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -150,62 +174,42 @@
                         <img id="img01" class="w3-image">
                         <p id="caption" class="w3-opacity w3-large"></p>
                     </div>
+                    <hr style="border:15px;">
                 </div>
-
-                <!-- Third Parallax Image with Portfolio Text -->
-                <div class="bgimg-3 w3-display-container w3-opacity-min">
-                    <div class="w3-display-middle">
-                        <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-                    </div>
-                </div>
+                <hr style="border:15px;">
 
                 <!-- Container (Contact Section) -->
                 <div class="w3-content w3-container w3-padding-64" id="contact">
-                    <h3 class="w3-center">WHERE I WORK</h3>
-                    <p class="w3-center"><em>I'd love your feedback!</em></p>
+                    <h3 class="w3-center">Contacto</h3>
+                    <p class="w3-center"><em>Comunicate con nosotros, o seguinos en nuestras redes .</em></p>
 
                     <div class="w3-row w3-padding-32 w3-section">
                         <div class="w3-col m4 w3-container">
-                            <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+                            <img src="https://geeksroom.com/wp-content/uploads/2017/06/google-maps-1797882_640.png" class="w3-image w3-round" style="width:100%">
                         </div>
                         <div class="w3-col m8 w3-panel">
                             <div class="w3-large w3-margin-bottom">
-                                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-                                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-                                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+                                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Resistencia y Barranqueras<br>
+                                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefonos: 3624512360 - 3625141852<br>
                             </div>
-                            <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-                            <form action="/action_page.php" target="_blank">
-                                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                                    <div class="w3-half">
-                                        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                                    </div>
-                                    <div class="w3-half">
-                                        <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                                    </div>
-                                </div>
-                                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                                <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-                            </form>
+                            <p>Hacenos tu consulta! <i class="fa fa-whatsapp"></i> tambien podes utilizar los botones de abajo para un acceso rapido!</p>
+
                         </div>
                     </div>
                 </div>
-
+                <hr style="border:15px;">
                 <!-- Footer -->
                 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
                     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir al inicio</a>
                     <div class="w3-xlarge w3-section">
                         <a href="https://instagram.com/inter.system?utm_medium=copy_link" target="_blank" rel="noopener">
                             <img alt="seguinos en instagram" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/instagram.png" title="seguinos en Instagram!" /></a>
-                        <a href="" target="_blank" rel="noopener">
+                        <a href="https://www.facebook.com/inter.system.rcia" target="_blank" rel="noopener">
                             <img alt="seguinos en facebook" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/facebook.png" title="seguinos en Facebook!" /></a>
-                        <a href="" target="_blank" rel="noopener">
-                            <img alt="Comunicate por whatsapp" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/whatsapp.png" title="Comunicate por whatsapp" /></a>
-
-
-
+                        <a href="https://wa.me/5493624512360" target="_blank" rel="noopener">
+                            <img alt="Comunicate por whatsapp" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/whatsapp.png" title="Comunicate con Javier" /></a>
+                        <a href="https://wa.me/5493625141852" target="_blank" rel="noopener">
+                            <img alt="Comunicate por whatsapp" height="40" width="40" src="https://webmasfacil.info/wp-content/uploads/2021/02/whatsapp.png" title="Comunicate con Nicolas" /></a>
                     </div>
                     <p>2022 - Resistencia Chaco</a>
                     </p>
